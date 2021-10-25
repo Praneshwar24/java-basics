@@ -4,11 +4,10 @@ public class NocProcess {
 	public static void main(String[] args) {
 		FeeThread feeThread = new FeeThread();
 		feeThread.start();
-		
-		
-		
+		OfficeBoy ramu = new OfficeBoy();
+		ramu.start();
+
 		//oldSequentialWay();
-		
 	}
 
 	private static void oldSequentialWay(){
@@ -26,7 +25,6 @@ public class NocProcess {
 			Thread.sleep(500);
 			System.out.println("got the fee no due stamp");
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
