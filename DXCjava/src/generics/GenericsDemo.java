@@ -8,7 +8,7 @@ public class GenericsDemo {
 		System.out.println(account.getObj());
 		
 		Account<Integer> gpayAccount = new Account<>();
-		gpayAccount.setObj(6473733);
+		gpayAccount.setObj(647373356);
 		System.out.println("The gpay account no is "+gpayAccount.getObj());
 	}
 
