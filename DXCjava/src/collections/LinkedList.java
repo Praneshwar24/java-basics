@@ -5,6 +5,7 @@ import java.util.List;
 
 public class LinkedList {
 	public static void main(String[] args) {
+
 		List<String> names = new java.util.LinkedList<String>();
 
 		names.add("Naruto");
